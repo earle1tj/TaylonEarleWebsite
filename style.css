@@ -1,0 +1,234 @@
+* {
+	-webkit-transition-property: all;
+	-webkit-transition-duration: .2s;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+	-moz-transition-property: all;}
+
+
+
+
+/* Animation */
+
+.text-animate-bottom
+
+{position:relative;animation:animatebottom 1s}
+
+@keyframes animatebottom{
+    
+    from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+body {
+    background: #EBECED;
+}
+/* Nav Bar*/
+
+#nav-header {
+height: inherit;
+ position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background: #E3BAB3;
+  text-align: right;
+  z-index: 1;
+    
+
+}
+#navbar a {
+	font-family: "Barlow", sans-serif;
+    height: 20px;
+  float: left;
+    width: 20%;
+  display: block;
+  color: white;
+    padding: 10px;
+  transition-duration: 0.4s;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+background: #E3BAB3;
+}
+
+#navbar a:hover {
+  background-color: #BF6071;
+  color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    
+}
+	
+	.nav-link {
+	
+}
+
+@media (max-height: 10px) {
+  #nav-bar {
+    display: none;
+  }
+}
+
+/* Body */
+
+#welcome-section {
+    display: block;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: #EBECED;
+    text-align: center;
+    color: #193446;
+    font-family: "Barlow", sans-serif;
+    padding-top: 0px;
+  margin-top: 0px;
+}
+
+#welcome-text {
+    font-size: 50px;
+    padding: 0px;
+        font-family: "Barlow", sans-serif;
+    
+}
+
+/*Project Body */
+
+#projects {
+    padding-bottom: 200px;
+    padding-top: 100px;
+    height: 100vh;
+    background: #193446;
+    color: #EBECED;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+
+#project-text {
+    font-size: 50px;
+    padding: 10px;
+        font-family: "Barlow", sans-serif;
+    border: 20px black;
+    text-align: center;
+
+    
+}
+
+.project-tile {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-end
+}
+.item-skumorphic {
+    display: block;
+    padding: 20px;
+  flex: 0 0 auto;
+  margin: 16px;
+       font-size: 40px;
+    border-radius: 50px;
+    width: 20%;
+background: #193446;
+box-shadow:  20px 20px 60px #152c3c,
+             -20px -20px 60px #1d3c51;
+    font-family: "barlow";
+    color: white;
+    text-decoration: none;
+    word-wrap: normal;
+}
+
+.item-skumorphic:hover {
+  border-radius: 100px;
+background: #193446;
+    transition-duration: 0.5s;
+box-shadow: inset 20px 20px 60px #152c3c,
+            inset -20px -20px 60px #1d3c51;
+    color: #C8C8C8;
+    max-width: inherit;
+}
+
+@media (max-width: 20px){
+    .item-skumorphic {
+        max-width: inherit;
+    }
+    
+}
+/* Contact Body */
+
+#contact-section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 50px;
+    width: 100%;
+    height: 100vh;
+    background: #EBECED;
+    text-align: center;
+    color: #193446;
+    font-family: "Barlow", sans-serif; }
+
+#contact-section-header {
+    font-size: 50px;
+    padding: -36px;
+        font-family: "Barlow", sans-serif;
+    
+}
+
+#contact-section-pararaph {
+    font-size: 20px;
+    
+}
+
+
+#contact-section-box {
+    padding-top: 100px;
+    padding-left: 10%;
+    display: grid;
+    justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap:  20px;
+  grid-template-areas:
+    ". . .";   
+    
+}
+
+.contact-skumorphic {
+    display: block;
+    padding: 20px;
+       font-size: auto;
+    width: 20%;
+    border-radius: 50px;
+background: #EBECED;
+box-shadow:  20px 20px 60px #c8c9c9,
+             -20px -20px 60px #ffffff;
+    font-family: "barlow";
+    color: #193446;
+    text-decoration: none;
+    word-wrap: normal;
+}
+
+
+.contact-skumorphic:hover {
+    display: block;
+    padding: 20px;
+  flex: 0 0 auto;
+  margin: 16px;
+       font-size: auto;
+    width: 20%;
+border-radius: 50px;
+background: #EBECED;
+box-shadow: inset 20px 20px 60px #c8c9c9,
+            inset -20px -20px 60px #ffffff;
+    font-family: "barlow";
+    color: #000000;
+    text-decoration: none;
+    word-wrap: normal;
+}
+
+#profile-link {}
