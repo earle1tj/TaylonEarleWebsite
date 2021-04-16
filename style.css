@@ -18,12 +18,12 @@ body {
 /* Nav Bar*/
 
 #nav-header {
-height: inherit;
+height: fit-content;
  position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
-  background: #E3BAB3;
+  background: #FFF447;
   text-align: right;
   z-index: 1;
     
@@ -34,31 +34,28 @@ height: inherit;
     height: 20px;
   float: left;
     width: 20%;
+    word-wrap: normal;
   display: block;
-  color: white;
+  color: black;
     padding: 10px;
   transition-duration: 0.4s;
   text-align: center;
   text-decoration: none;
   font-size: 15px;
-background: #E3BAB3;
+  word-wrap: normal;
+background: #FFF447;
 }
 
 #navbar a:hover {
-  background-color: #BF6071;
-  color: #FFFFFF;
+  background-color: #FFF447;
+  color: black;
     padding-top: 20px;
     padding-bottom: 20px;
+    word-wrap: normal;
     font-size: 20px;
     
 }
 	
-
-@media (max-height: 10px) {
-  #nav-bar {
-    display: none;
-  }
-}
 
 /* Body */
 
@@ -69,7 +66,7 @@ background: #E3BAB3;
     justify-content: center;
     width: 100%;
     height: 100vh;
-    background: #EBECED;
+    background: #c9c9c9;
     text-align: center;
     color: #193446;
     font-family: "Barlow", sans-serif;
@@ -89,7 +86,7 @@ background: #E3BAB3;
     padding-bottom: 200px;
     padding-top: 100px;
     height: 100vh;
-    background: #193446;
+    background: #3eb595;
     color: #EBECED;
     text-align: center;
     justify-content: center;
@@ -123,11 +120,13 @@ background: #E3BAB3;
   flex: 0 0 auto;
   margin: 16px;
        font-size: 40px;
-    border-radius: 50px;
     width: fit-content;
-background: #193446;
-box-shadow:  20px 20px 60px #152c3c,
-             -20px -20px 60px #1d3c51;
+background: #3eb595;
+border-radius: 50px;
+background: linear-gradient(225deg, #42c29f, #38a386);
+box-shadow:  -20px 20px 60px #359a7f,
+             20px -20px 60px #47d0ab;
+
     font-family: "barlow";
     color: white;
     text-decoration: none;
@@ -135,11 +134,11 @@ box-shadow:  20px 20px 60px #152c3c,
 }
 
 .item-skumorphic:hover {
-  border-radius: 100px;
-background: #193446;
     transition-duration: 0.5s;
-box-shadow: inset 20px 20px 60px #152c3c,
-            inset -20px -20px 60px #1d3c51;
+    border-radius: 50px;
+    background: linear-gradient(225deg, #38a386, #42c29f);
+    box-shadow:  -20px 20px 60px #359a7f,
+                 20px -20px 60px #47d0ab;
     color: #C8C8C8;
     max-width: inherit;
 }
@@ -218,6 +217,26 @@ box-shadow: inset 20px 20px 60px #c8c9c9,
     word-wrap: normal;
 }
 
-@media (min-width: 640px) { body {font-size:1rem;} } 
-@media (min-width:960px) { body {font-size:1.2rem;} } 
-@media (min-width:1100px) { body {font-size:1.5rem;} }
+
+
+
+/* Body Media */ 
+
+@media (max-width: 600px) {
+  #navbar a {
+    font-size: 12px;
+  }
+  #navbar a:hover {
+    font-size: 15px;
+  }
+  body {font-size:1rem;} 
+  
+  .contact-skumorphic {margin: 50px;}
+}
+
+@media (min-width:960px) 
+{ body {font-size:1.2rem;} } 
+
+@media (min-width:1100px) 
+
+{ body {font-size:1.5rem;} }
