@@ -7,6 +7,6 @@ deployment:
   - /bin/cp favicon.ico $DEPLOYPATH
   - /bin/cp hex.html $DEPLOYPATH
   - /bin/cp app.js $DEPLOYPATH
-  /bin/cp hex.js $DEPLOYPATH
-  /bin/cp stylesforhex.css $DEPLOYPATH
-  /bin/cp simple.html $DEPLOYPATH
+  - /bin/cp hex.js $DEPLOYPATH
+  - /bin/cp stylesforhex.css $DEPLOYPATH
+  - /bin/cp simple.html $DEPLOYPATH
