@@ -77,13 +77,12 @@ background: #E3BAB3;
     text-align: center;
     color: #193446;
     font-family: "Barlow", sans-serif;
-    padding-top: 200px;
+    padding-top: 100px;
   margin-top: 0px;
 }
 
 #welcome-text {
     font-size: 50px;
-    padding-top: 0px;
         font-family: "Barlow", sans-serif;
     
 }
