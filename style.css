@@ -15,7 +15,7 @@
 
 @keyframes animatebottom{
     
-    from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+    from{bottom:-300px;opacity:0} to{bottom:0px;opacity:1}}
 body {
     background: #EBECED;
 }
@@ -80,13 +80,13 @@ background: #E3BAB3;
     text-align: center;
     color: #193446;
     font-family: "Barlow", sans-serif;
-    padding-top: 0px;
+    padding-top: 300px;
   margin-top: 0px;
 }
 
 #welcome-text {
     font-size: 50px;
-    padding: 0px;
+    padding-top: 200px;
         font-family: "Barlow", sans-serif;
     
 }
@@ -103,6 +103,7 @@ background: #E3BAB3;
     justify-content: center;
     align-content: center;
     width: 100%;
+    position: relative;
 }
 
 
@@ -188,7 +189,7 @@ box-shadow: inset 20px 20px 60px #152c3c,
 #contact-section-box {
     padding-top: 100px;
     padding-left: 10%;
-    display: grid;
+    display: flex;
     justify-content: center;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -199,7 +200,7 @@ box-shadow: inset 20px 20px 60px #152c3c,
 }
 
 .contact-skumorphic {
-    display: block;
+    display: flexbox;
     padding: 20px;
        font-size: auto;
     width: 20%;
