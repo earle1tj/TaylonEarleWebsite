@@ -210,6 +210,7 @@ box-shadow:  20px 20px 60px #c8c9c9,
 
 .contact-skumorphic:hover {
 border-radius: 50px;
+text-align: center;
 background: #EBECED;
 box-shadow: inset 20px 20px 60px #c8c9c9,
             inset -20px -20px 60px #ffffff;
