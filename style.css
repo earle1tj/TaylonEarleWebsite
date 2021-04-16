@@ -57,9 +57,6 @@ background: #E3BAB3;
     
 }
 	
-	.nav-link {
-	
-}
 
 @media (max-height: 10px) {
   #nav-bar {
@@ -231,5 +228,3 @@ box-shadow: inset 20px 20px 60px #c8c9c9,
     text-decoration: none;
     word-wrap: normal;
 }
-
-#profile-link {}
