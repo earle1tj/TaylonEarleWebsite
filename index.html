@@ -1,62 +1,138 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Taylon Earle</title>
-	<link href="https://fonts.googleapis.com/css?family=Barlow|Noto+Sans+JP|Open+Sans+Condensed:300" rel="stylesheet">
-<link href="style.css" rel="stylesheet" type="text/css">
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="HandheldFriendly" content="true">
-<link rel="shortcut ico" href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylon J Earle - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/dd59379c4b.js" crossorigin="anonymous"></script>
+<!-- Update with my own fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NC4QJX7L74"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NC4QJX7L74');
+</script>
+
 </head>
 <body>
-	<header id="nav-header">
-		<nav id="navbar">
-			<a class="nav-link" href="#welcome-section">Welcome</a>
-			<a class="nav-link" href="#projects">Projects</a>
-			<a class="nav-link" href="#contact-section">Where to Find Me</a>
-		</nav>
-		</header>
-		
-		<main id="main-doc">	
-			<section id="welcome-section">
-			
-			<h1 id="welcome-text" class="text-animate-bottom"> Hey it's Me, Taylon</h1>
-	
-				<p class="text-animate-bottom">Future Front End Developer</p>
-			</section>
-	
-			
-			<section id="projects">
-			
-			
-				<section id="project-text-box"><h1 id="project-text">Projects</h1>
-				</section>
-			<section>
-				<div class="project-tile">
-					<a href="https://codepen.io/taylon-james-earle/pen/oNYeWjW" class="item-skumorphic">Documentation Project</a>
-				<a class="item-skumorphic"> Product Landing Page (Work In Progress)</a>
-				<a class="item-skumorphic" href="hex.html"> Color Switcher</a>
-				</div>
-				
-				
-				</section>
-			
-			</section>
-			<section id="contact-section">
-	  <div>
-		<h2 id="contact-section-header">Let's Connect</h2>
-		<p id="contact-section-pararaph">How do you like to socialize?</p>
-	</div>
-			<div id="contact-section-box">
-					 <a href="https://www.freecodecamp.org/earle1tj" class="contact-skumorphic" id="profile-link" target="_blank">FreeCodeCamp </a>
-					   <a href="https://codepen.io/taylon-james-earle" class="contact-skumorphic"> CodePen </a>
-					<a href="https://github.com/earle1tj" class="contact-skumorphic"> GitHub </a>
-				
-			</div>
-	</section>
-			
-	
-		</main>
+<header>
+    <div class="logo">
+            <img src="img/logo.png" alt="Taylon Logo">
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+            <li class="nav__item"><a href="#work" class="nav__link">My Work</a> </li>
+        </ul>
+    </nav>
+</header>
+<!-- Introduction-->
+<section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+Hi, I am <strong>Taylon J Earle</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+    <img src="img/picture-of-taylon.jpg" alt="picture of Taylon" class="intro__img">
+
+</section>
+<!-- My Services-->
+<section class="my-services" id="services">
+    <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>UI and Design</h3>
+                <p>What I love the most about computer science is actually the way information is presented! What you can expect from me is knowledge of UI implementation that is carefully thought out and designed for each situation!</p>
+            </div>
+        <!-- / service-->
+
+        <div class="service">
+            <h3>Wix and Wordpress</h3>
+            <p>Before I became a Software Engineer, I was a buisness owner! I know the ins and outs to running an online busniess along with the indepth knowledge of how Wix and Wordpress works. There is no obstacle I cannot face.</p>
+        </div>
+   <!-- / service-->
+   
+    <div class="service">
+        <h3>Ecommerce Setup</h3>
+        <p>Need an online store to draw in your audience? Don't fret, with years of experience, I promise you that a fully function site is right around the corner.</p>
+    </div> <!-- / service-->
+</div><!-- / services-->
+<a href="#work" class="btn">My Work</a>
+    
+</section>
+
+<!-- About Me-->
+<section class="about-me" id="about">
+    <h2 class="section__title section__title--about">Who I am</h2>
+    <p class="section__subtitle section__subtitle--about">Nature Driven, Futurist, Michigander</p>
+
+    <div class="about-me__body">
+        <p>Growing up in Mid-Michigan, I have always dreamed of innovation and technology and how it can drive my small area of the world further. Discovering my love for technology and advancement, I am commited to working to make the future a better place</p>
+        <p>My life passion is to further and expand the idea of a more eco-friendly, technologically advanced, and socialible future.</p>
+    </div>
+    <img src="img/picture-of-bridge.jpg" alt="picture of bridge" class="about-me__img"></img>
+</section>
+
+<!-- Work-->
+<section class="my-work" id="work">
+    <h2 class="section__title section__title--work">My Work</h2>
+    <p class="section__subtitle section__subtitle-work">What I've been working on</p>
+    <div class="portfolio">
+        
+        <!-- Portfolio Item-->
+        <a href="#" class="portfolio__item">
+            <img src="img/computer-code.jpg" alt="" class="portfolio__img"> 
+        </a>
+
+            <!-- Portfolio Item-->
+        <a href="#" class="portfolio__item">
+            <img src="img/computer-glassess.jpg" alt="" class="portfolio__img"> 
+        </a>
+
+        <!-- Portfolio Item-->
+        <a href="#" class="portfolio__item">
+            <img src="img/fireworks.jpg" alt="Fireworks" class="portfolio__img"> 
+        </a>
+
+        <!-- Portfolio Item-->
+        <a href="#" class="portfolio__item">
+            <img src="img/music.jpg" alt="" class="portfolio__img"> 
+        </a>
+
+        <!-- Portfolio Item-->
+        <a href="#" class="portfolio__item">
+            <img src="img/rainbow-flag.jpg" alt="" class="portfolio__img"> 
+        </a>
+
+        <!-- Portfolio Item-->
+        <a href="#" class="portfolio__item">
+            <img src="img/rainbow-makeup.jpg" alt="" class="portfolio__img"> 
+        </a>
+
+    </div>
+
+</section>
+<!-- footer -->
+<footer class="footer">
+<a href="mailto:info@taylonearle.com" class="footer__link">info@taylonearle.com</a>
+    <ul class="social-list">
+        <li class="social-list__item"><a class="social-list__link" href="https://codepen.io"><i class="fab fa-codepen"></i></a></li>
+        <li class="social-list__item"><a class="social-list__link" href="https://twitter.com/taylonearle"><i class="fab fa-twitter"></i></a></li>
+        <li class="social-list__item"><a class="social-list__link" href="https://github.com/earle1tj"><i class="fab fa-github"></i></a></li>
+        <li class="social-list__item"><a class="social-list__link" href="https://linkedin.com"><i class="fab fa-linkedin-in"></i></a></li>
+    </ul>
+</footer>
+<script src="js/index.js"></script>
 </body>
 </html>
